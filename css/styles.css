@@ -27,8 +27,16 @@ a {
     text-decoration: none;
 }
 
-a:hover,
-a:focus {
+.nav__link:hover,
+.nav__link:focus,
+.contacts__link:hover,
+.contacts__link:focus,
+.address__link:hover,
+.address__link:focus,
+.addres__email:hover,
+.addres__email:focus,
+.address__number:hover,
+.address__number:focus{
     color: var(--blue_hover_color);
 }
 
