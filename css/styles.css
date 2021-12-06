@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+    --blue_hover_color: #2196F3;
+    --black_color: #212121;
+    --main_text: #757575;
+    --white_color: #FFFFFF;
+    --filter_buttom_color: #F5F4FA;
+    --dark_bg_color: #2F303A;
+    --footer_color: rgba(255, 255, 255, 0.6);
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--black_color);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--blue_hover_color);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus,
+button:hover {
+    background-color: var(--blue_hover_color);
+    color: var(--white_color);
+}
+
+.logo,
+.footer__logo {
+    color: var(--black_color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.logo span {
+    color: var(--blue_hover_color);
+}
+
+.nav__link {
+    color: var(--black_color);
+    width: 500;
+    size: 14px;
+    line-height: 16px;
+}
+
+.nav__link--active {
+    color: var(--blue_hover_color);
+}
+
+.contacts__link {
+    color: var(--main_text);
+    width: 500;
+    size: 14px;
+    line-height: 16px;
+}
+
+.main-screen {
+    background-color: var(--dark_bg_color);
+}
+
+.main-screen__title {
+    color: var(--white_color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.main-screen__btn {
+    background-color: var(--blue_hover_color);
+    color: var(--white_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.information__title {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.information__text {
+    color: var(--main_text);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about__title,
+.secrion-team {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.team__card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+}
+
+.team__member {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.team__post {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main_text);
+}
+
+.footer {
+    background-color: var(--dark_bg_color);
+}
+
+.address__link,
+.addres__email,
+.address-number {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white_color);
+}
+
+.addres__email,
+.address__number {
+    color: var(--footer_color);
+}
+
+.footer__logo {
+    color: var(--white_color);
+}
+
+.footer__logo span {
+    color: var(--blue_hover_color);
+}
+
+.filter__button {
+    background-color: var(--filter_buttom_color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.portfolio__card {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    background-color: var(--white_color);
+}
+
+.portfolip__title {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.portfolio__type {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--main_text);
+}

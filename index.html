@@ -6,58 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+ rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" 
+rel="stylesheet">
+ <link rel="stylesheet" href="/css/styles.css">
+
 </head>
 
 <body>
     <header>
-        <a href="#">
-            <span>Web</span>
-            Studio
+        <a href="#" class="logo">
+            <span>Web</span>Studio
         </a>
-        <nav>
+        <nav class="nav">
             <ul>
-                <li><a href="index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="index.html" class="nav__link nav__link--active">
+                    Студия
+                </a></li>
+                <li><a href="portfolio.html" class="nav__link">Портфолио</a></li>
+                <li><a href="#" class="nav__link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:0961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts">
+            <li><a href="mailto:info@devstudio.com" class="contacts__link">
+                info@devstudio.com
+            </a></li>
+            <li><a href="tel:0961111111" class="contacts__link">
+                +38 096 111 11 11
+            </a></li>
         </ul>
     </header>
     <main>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="main-screen">
+            <h1 class="main-screen__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="main-screen__btn">Заказать услугу</button>
         </section>
 
-        <section>
+        <section class="information-section">
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>
+                    <h3 class="information__title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                    <p class="information__text">
                         Идейные соображения, а также начало повседневной работы
                         по формированию позиции.
                     </p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>
+                    <h3 class="information__title">ПУНКТУАЛЬНОСТЬ</h3>
+                    <p class="information__text">
                         Задача организации, в особенности же рамки и место
                         обучения кадров влечет за собой.
                     </p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>
+                    <h3 class="information__title">ПЛАНИРОВАНИЕ</h3>
+                    <p class="information__text">
                         Равным образом консультация с широким активом в
                         значительной степени обуславливает.
                     </p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>
+                    <h3 class="information__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <p class="information__text">
                         Значимость этих проблем настолько очевидна, что
                         реализация плановых заданий.
                     </p>
@@ -65,75 +78,77 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="section-about">
+            <h2 class="about__title">Чем мы занимаемся</h2>
 
             <ul>
                 <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/coding.jpg?raw=true"
+                    <img src="images\home_page\coding.jpg"
                         alt="coding" width="370" height="294">
                 </li>
                 <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/mobile.jpg?raw=true"
+                    <img src="images\home_page\mobile.jpg"
                         alt="mobile version" width="370" height="294">
                 </li>
                 <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/design.jpg?raw=true"
+                    <img src="images\home_page\design.jpg"
                         alt="web design" width="370" height="294">
                 </li>
             </ul>
         </section>
 
         <section>
-            <h2>
+            <h2 class="secrion-team">
                 Наша команда
             </h2>
             <ul>
-                <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/product_designer.jpg?raw=true"
+                <li class="team__card">
+                    <img src="images\home_page\product_designer.jpg"
                         alt="Ihor" width="270" height="260">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team__member">Игорь Демьяненко</h3>
+                    <p class="team__post">Product Designer</p>
                 </li>
-                <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/frontend_developer.jpg?raw=true"
+                <li class="team__card">
+                    <img src="images\home_page\frontend_developer.jpg"
                         alt="Olga" width="270" height="260">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="team__member">Ольга Репина</h3>
+                    <p class="team__post">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/marketing.jpg?raw=true"
+                <li class="team__card">
+                    <img src="images\home_page\marketing.jpg"
                         alt="Nikolai" width="270" height="260">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="team__member">Николай Тарасов</h3>
+                    <p class="team__post">Marketing</p>
                 </li>
-                <li>
-                    <img src="https://github.com/kklimka/goit-markup-hw-01/blob/main/Images/ui_designer.jpg?raw=true"
+                <li class="team__card">
+                    <img src="images\home_page\ui_designer.jpg"
                         alt="Mikhail" width="270" height="260">
-                    <h3>Михаил Ермакова</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team__member">Михаил Ермакова</h3>
+                    <p class="team__post">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <a href="#">
-            <span>Web</span>
-            Studio
+    <footer class="footer">
+        <a href="#" class="footer__logo">
+            <span>Web</span>Studio
         </a>
-        <address>
+        <address class="footter__address">
             <ul>
                 <li>
-                    <a
+                    <a class="address__link"
                         href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858">
                         г. Киев, пр-т Леси Украинки, 26
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="addres__email"
+                     href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li><a href="tel:0961111111">+38 096 111 11 11</a></li>
+                <li><a class="address__number"
+                    href="tel:0961111111">+38 096 111 11 11
+                </a></li>
             </ul>
         </address>
     </footer>
