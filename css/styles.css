@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-
 :root {
     --blue_hover_color: #2196F3;
     --black_color: #212121;
@@ -8,11 +6,15 @@
     --filter_buttom_color: #F5F4FA;
     --dark_bg_color: #2F303A;
     --footer_color: rgba(255, 255, 255, 0.6);
-
+    --border_collor: #EEEEEE;
+    --box-shadow_first: rgba(0, 0, 0, 0.12);
+    --box-shadow_second: rgba(0, 0, 0, 0.14);
+    --box-shadow_third: rgba(0, 0, 0, 0.2);
 
 }
 
 body {
+   
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -56,7 +58,7 @@ button:hover {
     font-family: 'Raleway';
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.2;
 }
 
 .logo span {
@@ -65,9 +67,9 @@ button:hover {
 
 .nav__link {
     color: var(--black_color);
-    width: 500;
-    size: 14px;
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
 }
 
 .nav__link--active {
@@ -76,9 +78,9 @@ button:hover {
 
 .contacts__link {
     color: var(--main_text);
-    width: 500;
-    size: 14px;
-    line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .main-screen {
@@ -89,14 +91,14 @@ button:hover {
     color: var(--white_color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
 }
 
 .main-screen__btn {
     background-color: var(--blue_hover_color);
     color: var(--white_color);
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     font-weight: 700;
     width: 200px;
     height: 50px;
@@ -105,7 +107,7 @@ button:hover {
 
 .information__title {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     font-weight: 700;
 }
 
@@ -113,18 +115,18 @@ button:hover {
     color: var(--main_text);
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
 }
 
 .about__title,
 .secrion-team {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     font-weight: 700;
 }
 
 .team__card {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px var(--box-shadow_first), 0px 1px 1px var(--box-shadow_second), 0px 2px 1px var(--box-shadow_third);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
@@ -132,13 +134,13 @@ button:hover {
 
 .team__member {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     font-weight: 500;
 }
 
 .team__post {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--main_text);
 }
 
@@ -150,7 +152,7 @@ button:hover {
 .addres__email,
 .address-number {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: var(--white_color);
 }
 
@@ -171,7 +173,7 @@ button:hover {
     background-color: var(--filter_buttom_color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     border-radius: 4px;
     border: none;
 
@@ -180,18 +182,21 @@ button:hover {
 .portfolio__card {
     width: 370px;
     height: 404px;
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--border_collor);
     background-color: var(--white_color);
 }
 
 .portfolip__title {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     font-weight: 700;
 }
 
 .portfolio__type {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--main_text);
+}
+.footter__address{
+    font-style: normal;
 }
